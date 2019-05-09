@@ -2,4 +2,4 @@
 noty notes
 
 # Jazyky
-[R](notes/r.md)
+[R](Notes/R.md)
