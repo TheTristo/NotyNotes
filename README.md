@@ -4,4 +4,4 @@ noty notes
 # Jazyky
 [R](Notes/R.md)
 <br>
-[Raspberry_pi](notes/raspberry_pi.md)
+[Raspberry_pi](Notes/raspberry_pi.md)
