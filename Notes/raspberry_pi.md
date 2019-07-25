@@ -2,4 +2,14 @@
 ## Humidity & Temperature sensor (_DHT11_)
 3 piny na sensoru: _dout_ (gpio pin), _gnd_ (ground pin) a _vcc_ (5V pin)
 
-1. připojit vypnuté raspberry k breadboardu skrz správné piny (např. vcc: 2, gnd: 4, 
+1. připojit vypnuté raspberry k breadboardu skrz správné piny (např. vcc: 2, gnd: 6, dout: 7)
+2. zapnout raspberry a stáhnout knihovnu https://github.com/szazo/DHT11_Python.git pomocí clone git, následně upravit soubor _DHT11_example.py_:
+
+''' 
+clone git https://github.com/szazo/DHT11_Python.git
+cd DHT11_Python
+sudo nano DHT11_example.py
+
+'''
+3. přepíšeme GPIO číslo z pin=11 na pin=4 (podle GPIO4)
+
