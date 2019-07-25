@@ -13,4 +13,7 @@ sudo nano DHT11_example.py
 ~~~~
 
 3. přepíšeme GPIO číslo z pin=11 na pin=4 (podle GPIO4)
-
+4. v terminálu spustíme skript:
+~~~~
+python DHT11_example.py
+~~~~
